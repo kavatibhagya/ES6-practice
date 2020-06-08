@@ -18,10 +18,8 @@ class shoppingList{
 
    }
    sayList(){
-    document.getElementById("list").innerText = "The list is " +this.list()+ "  And the color is "+this.itemcolor;
+     return  "The list is " +this.list()+ "  And the color is "+this.itemcolor;
    }
- }
- 
- 
+  }
  const object =new product("apple,grapes,berries",3,"green",5);
- object.sayList();
+ document.getElementById("list").innerText=object.sayList();
