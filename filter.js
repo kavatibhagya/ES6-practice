@@ -3,3 +3,6 @@ const shoppingList = ["eggs", "milk", "sugar","salt","banana"];
      return item !== "eggs";
    });
    console.log(filterList);
+
+
+   
